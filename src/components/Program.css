@@ -1,0 +1,81 @@
+/* Main wrapper styles */
+.program-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Section title */
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Flex container for responsive card design */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual card design - 3 per row */
+  .program-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 0 1 calc(33.333% - 20px); /* Makes each card occupy 1/3rd of the row minus spacing */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* Description styles */
+  .program-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Hover effects */
+  .program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for button */
+  .join-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Query for responsiveness - adjust number of cards on smaller devices */
+  @media (max-width: 768px) {
+    .program-card {
+      flex: 0 1 calc(50% - 20px); /* 2 cards per row on smaller devices */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .program-card {
+      flex: 0 1 calc(100% - 20px); /* 1 card per row on very small screens */
+    }
+  }
+  
