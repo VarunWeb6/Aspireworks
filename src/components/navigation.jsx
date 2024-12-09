@@ -30,7 +30,7 @@ export const Navigation = () => {
               <a href="#services" className="page-scroll">Services</a>
             </li>
             <li>
-              <a href="#Blog" className="page-scroll">Blog</a>
+              <a href="#blog" className="page-scroll">Blog</a>
             </li>
             <li>
               <a href="#program" className="page-scroll">Programs</a>

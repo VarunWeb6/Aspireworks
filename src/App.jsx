@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { About } from "./components/about";
+import { Blog } from "./components/Blog";
 import { Services } from "./components/services";
 import { Contact } from "./components/contact";
 import { Program } from "./components/program";
@@ -23,11 +24,11 @@ const App = () => {
 
   return (
     <>
-      {/* Main navigation and page elements */}
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
       <Program />
+      <Blog /> {/* The Blog component is now tied to the navbar */}
       <Services data={landingPageData.Services} />
       <Contact data={landingPageData.Contact} />
     </>
