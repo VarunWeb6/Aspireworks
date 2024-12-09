@@ -4,18 +4,18 @@
     "paragraph": " Empowering Futures, One Internship at a Time"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Aspire to learn. Aspire to grow : AspireWorks makes it happen At AspireWorks, we are dedicated to empowering the next generation of professionals by bridging the gap between education and industry. We believe that internships are more than just temporary roles—they are stepping stones to building careers, unlocking potential, and creating opportunities.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Real-World Experience",
+      "Expert Mentorship",
+      "Skill Development Workshops",
+      "Flexible Opportunities"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Proven Success Rate",
+      "Innovation and Creativity",
+      "Global Industry Reach",
+      "Personalized Learning Paths"
     ]
   },
   "Gallery": [
@@ -73,27 +73,27 @@
     },
     {
       "icon": "fa fa-cart-arrow-down",
+      "name": "Skill Development Workshops",
+      "text": "Enhance your abilities with expert-led workshops and training sessions. Whether it’s technical, creative, or soft skills, we have you covered."
+    },
+    {
+      "icon": "fa fa-cloud-download",
       "name": "Mentorship by Industry Experts",
       "text": "Get guided by seasoned professionals who are committed to your growth. From technical skills to career advice, our mentors ensure you’re set up for success."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Flexible Learning Environment",
+      "text": "We offer both in-office and remote internships to accommodate your lifestyle and preferences. Learn and grow from anywhere!"
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Networking Opportunities",
+      "text": "Join a thriving community of like-minded peers, mentors, and industry leaders. Build meaningful connections that can open doors to exciting career opportunities."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
+      "name": "Certification and Career Support",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
