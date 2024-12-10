@@ -33,6 +33,12 @@ const blogs = [
     description: "Understanding how to tackle the growing number of cybersecurity challenges.",
     link: "https://www.example.com/blog-5",
   },
+  {
+    id: 6,
+    title: "Demystifying Blockchain for Beginners",
+    description: "A simple guide to understanding blockchain technology and its applications.",
+    link: "https://www.example.com/blog-6",
+  },
 ];
 
 export const Blog = () => {
@@ -44,7 +50,6 @@ export const Blog = () => {
           <div className="blog-card" key={blog.id}>
             <div className="blog-content">
               <h3 className="blog-title">{blog.title}</h3>
-              <p className="blog-description">{blog.description}</p>
               <a
                 href={blog.link}
                 target="_blank"

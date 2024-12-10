@@ -5,80 +5,75 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: #1a1a1a;
+  color: #fff;
+  height: 600px;
 }
 
 /* Header styles */
 .blog-header {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: #fff;
+  font-family: "Arial", sans-serif;
 }
 
-/* Blog container to center cards */
+/* Blog container for rows */
 .blog-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   max-width: 1200px;
+  height: 400px;
 }
 
 /* Blog card styles */
 .blog-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #314dcc;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
-  width: 300px;
-  text-align: center; /* Centers text inside the card */
+  overflow: hidden;
+  width: 30%; /* Ensure 3 cards per row */
+  height: 200px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .blog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
 /* Blog content */
 .blog-content {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers elements inside the blog card */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .blog-title {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #333;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
 }
 
-.blog-description {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  color: #666;
-  line-height: 1.5;
-}
-
-/* Read more button/link */
 .read-more {
-  display: inline-block;
-  font-size: 1rem;
-  color: #007bff;
-  text-decoration: none;
-  border: 1px solid #007bff;
-  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #007bff;
+  padding: 0.3rem 0.8rem;
   border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .read-more:hover {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0056b3;
+  transform: scale(1.1);
 }

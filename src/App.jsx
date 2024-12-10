@@ -27,9 +27,9 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <About data={landingPageData.About} />
-      <Program />
-      <Blog /> {/* The Blog component is now tied to the navbar */}
       <Services data={landingPageData.Services} />
+      <Blog /> {/* The Blog component is now tied to the navbar */}
+      <Program />      
       <Contact data={landingPageData.Contact} />
     </>
   );
